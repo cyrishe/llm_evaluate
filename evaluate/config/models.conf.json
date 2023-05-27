@@ -1,0 +1,35 @@
+{
+    "llama": {
+        "base_model": "../../model_hub/llama-7b-hf",
+        "tokenizer": "../../model_hub/chinese-alpaca-lora-7b",
+        "lora_model": "../../model_hub/chinese-alpaca-lora-7b"
+    },
+    "llama_chain_v1": {
+        "base_model": "../../model_hub/alpaca-combined-hf",
+        "lora_model": "../../model_hub/llama_chain_v0.1/"
+    },
+    "glm6B": {
+        "base_model": "../../model_hub/glm_ori/"
+    },
+    "moss": {
+        "base_model": "fnlp/moss-moon-003-sft"
+    },
+    "gpt": {
+        "api_key": "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",
+        "api_uri": "http://47.251.17.1:9000/v1"
+    },
+    "dvc": {
+        "api_key": "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",
+        "api_uri": "http://47.251.17.1:9000/v1"
+    },
+    "minimax": {
+        "api_key": "",
+        "api_uri": ""
+    },
+    "yuan": {
+        "api_key": "",
+        "api_uri": ""
+    }
+
+
+}
